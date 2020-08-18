@@ -3,7 +3,8 @@
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"printnl": "00_core.ipynb",
-         "printdict": "00_core.ipynb"}
+         "printdict": "00_core.ipynb",
+         "test_eqs": "00_core.ipynb"}
 
 modules = ["core.py"]
 
