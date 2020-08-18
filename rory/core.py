@@ -4,10 +4,12 @@ __all__ = ['printnl', 'printdict']
 
 # Cell
 def printnl(*x,nl=2):
-    """ Print x separated by nl=2 newlines."""
+    """Print x separated by nl=2 newlines."""
     print(*x,sep='\n'*nl)
 
 # Cell
 def printdict(d,n=2):
-    """Print n=2 lines from a dict."""
-    print(dict(list(d.items())[:n]))
+    """Print n=2 pairs from a dict."""
+    l = list(d.items())[:n]
+    for k,v in l:
+        print(f'Key ({type(k).__name__}): "{k}"\nValue ({type(v).__name__}): {v}\n')
