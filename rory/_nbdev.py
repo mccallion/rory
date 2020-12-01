@@ -2,11 +2,12 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"printnl": "00_core.ipynb",
-         "printdict": "00_core.ipynb",
-         "test_eqs": "00_core.ipynb"}
+index = {"pnl": "helpers.ipynb",
+         "printdict": "helpers.ipynb",
+         "test_eqs": "helpers.ipynb",
+         "flatten": "helpers.ipynb"}
 
-modules = ["core.py"]
+modules = ["helpers.py"]
 
 doc_url = "https://mccallion.github.io/rory/"
 
